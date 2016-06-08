@@ -28,7 +28,7 @@ import transportes.src.Genericas;
 public class test2 extends javax.swing.JFrame {
 
     /**
-     * Creates new form Jhorman
+     * Creates new form Jhorman Izaquita
      */
     public test2() {
         initComponents();
