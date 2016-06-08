@@ -42,7 +42,7 @@ public class frm_Ingreso_Reporte_C extends javax.swing.JPanel {
 
     }
 
-    public void generar_Listener_Combo_empleados(JTextField textfield, JComboBox combo) {
+    public void generar_Listener_Combo_empleados(final JTextField textfield, final JComboBox combo) {
         textfield.addKeyListener(new KeyAdapter() {
             public void keyReleased(KeyEvent ke) {
                 SwingUtilities.invokeLater(new Runnable() {
@@ -71,7 +71,7 @@ public class frm_Ingreso_Reporte_C extends javax.swing.JPanel {
         }
     }
 
-    public void generar_Listener_Combo_Vehiculos(JTextField textfield, JComboBox combo) {
+    public void generar_Listener_Combo_Vehiculos(final JTextField textfield, final JComboBox combo) {
         textfield.addKeyListener(new KeyAdapter() {
             @Override
             public void keyReleased(KeyEvent ke) {
@@ -101,7 +101,7 @@ public class frm_Ingreso_Reporte_C extends javax.swing.JPanel {
         }
     }
 
-    public void generar_Listener_Combo_Proyecto(JTextField textfield, JComboBox combo) {
+    public void generar_Listener_Combo_Proyecto(final JTextField textfield, final JComboBox combo) {
         textfield.addKeyListener(new KeyAdapter() {
             @Override
             public void keyReleased(KeyEvent ke) {
@@ -131,7 +131,7 @@ public class frm_Ingreso_Reporte_C extends javax.swing.JPanel {
         }
     }
 
-    public void generar_Listener_Combo_Actividad(JTextField textfield, JComboBox combo) {
+    public void generar_Listener_Combo_Actividad(final JTextField textfield, final JComboBox combo) {
         textfield.addKeyListener(new KeyAdapter() {
             @Override
             public void keyReleased(KeyEvent ke) {
@@ -161,7 +161,7 @@ public class frm_Ingreso_Reporte_C extends javax.swing.JPanel {
         }
     }
 
-    public void generar_Listener_Combo_Usuarios(JTextField textfield, JComboBox combo) {
+    public void generar_Listener_Combo_Usuarios(final JTextField textfield, final JComboBox combo) {
         textfield.addKeyListener(new KeyAdapter() {
             @Override
             public void keyReleased(KeyEvent ke) {
@@ -191,7 +191,7 @@ public class frm_Ingreso_Reporte_C extends javax.swing.JPanel {
         }
     }
 
-    public void generar_Listener_Combo_Rutas(JTextField textfield, JComboBox combo) {
+    public void generar_Listener_Combo_Rutas(final JTextField textfield, final JComboBox combo) {
         textfield.addKeyListener(new KeyAdapter() {
             @Override
             public void keyReleased(KeyEvent ke) {

@@ -37,7 +37,7 @@ public class test2 extends javax.swing.JFrame {
 
     }
 
-    public void generar_Listener_Combo(JTextField textfield, JComboBox combo) {
+    public void generar_Listener_Combo(final JTextField textfield, final JComboBox combo) {
         textfield.addKeyListener(new KeyAdapter() {
             public void keyReleased(KeyEvent ke) {
                 SwingUtilities.invokeLater(new Runnable() {
