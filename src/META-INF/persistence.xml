@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="1.0" xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd">
+  <persistence-unit name="transportes?zeroDateTimeBehavior=convertToNullPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>transportes.JPA.UsuarioProyecto</class>
+    <class>transportes.JPA.Proyecto</class>
+    <class>transportes.JPA.TipoVehiculo</class>
+    <class>transportes.JPA.Ceco</class>
+    <class>transportes.JPA.Horario</class>
+    <class>transportes.JPA.Novedad</class>
+    <class>transportes.JPA.Empleado</class>
+    <class>transportes.JPA.RutaExterna</class>
+    <class>transportes.JPA.ReporteDiario</class>
+    <class>transportes.JPA.Vehiculo</class>
+    <class>transportes.JPA.ActividadNovedad</class>
+    <class>transportes.JPA.TipoEmpleado</class>
+    <class>transportes.JPA.RutaHorario</class>
+    <class>transportes.JPA.Ruta</class>
+    <class>transportes.JPA.ActividadPrincipal</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/transportes?zeroDateTimeBehavior=convertToNull"/>
+      <property name="javax.persistence.jdbc.user" value="root"/>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.password" value=""/>
+    </properties>
+  </persistence-unit>
+</persistence>
