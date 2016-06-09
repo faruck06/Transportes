@@ -12,6 +12,14 @@ import javax.swing.JPanel;
 import java.util.ArrayList;
 import javax.swing.JOptionPane;
 import transportes.view.Administracion.Frm_Usuario_Proyecto;
+import transportes.view.Administracion.frm_Actividad_Novedad;
+import transportes.view.Administracion.frm_Actividad_Proyecto;
+import transportes.view.Administracion.frm_Horario;
+import transportes.view.Administracion.frm_Personal;
+import transportes.view.Administracion.frm_Proyecto;
+import transportes.view.Administracion.frm_Ruta;
+import transportes.view.Administracion.frm_Tipo_Vehiculo;
+import transportes.view.Administracion.frm_Vehiculo;
 import transportes.view.Facturacion.frm_Ingreso_Reporte_C;
 
 /**
@@ -76,6 +84,15 @@ public class MainWindow extends javax.swing.JFrame {
         jMenuBar2 = new javax.swing.JMenuBar();
         jMenu1 = new javax.swing.JMenu();
         jMenu2 = new javax.swing.JMenu();
+        jMenuItem3 = new javax.swing.JMenuItem();
+        jMenuItem4 = new javax.swing.JMenuItem();
+        jMenuItem5 = new javax.swing.JMenuItem();
+        jMenuItem6 = new javax.swing.JMenuItem();
+        jMenuItem7 = new javax.swing.JMenuItem();
+        jMenuItem8 = new javax.swing.JMenuItem();
+        jMenuItem9 = new javax.swing.JMenuItem();
+        jMenuItem10 = new javax.swing.JMenuItem();
+        jMenuItem11 = new javax.swing.JMenuItem();
         jMenu3 = new javax.swing.JMenu();
         jMenuItem2 = new javax.swing.JMenuItem();
 
@@ -102,6 +119,79 @@ public class MainWindow extends javax.swing.JFrame {
         jMenuBar2.add(jMenu1);
 
         jMenu2.setText("Administración");
+
+        jMenuItem3.setText("Personal");
+        jMenuItem3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem3ActionPerformed(evt);
+            }
+        });
+        jMenu2.add(jMenuItem3);
+
+        jMenuItem4.setText("Vehiculos");
+        jMenuItem4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem4ActionPerformed(evt);
+            }
+        });
+        jMenu2.add(jMenuItem4);
+
+        jMenuItem5.setText("Rutas");
+        jMenuItem5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem5ActionPerformed(evt);
+            }
+        });
+        jMenu2.add(jMenuItem5);
+
+        jMenuItem6.setText("Proyectos");
+        jMenuItem6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem6ActionPerformed(evt);
+            }
+        });
+        jMenu2.add(jMenuItem6);
+
+        jMenuItem7.setText("Horarios");
+        jMenuItem7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem7ActionPerformed(evt);
+            }
+        });
+        jMenu2.add(jMenuItem7);
+
+        jMenuItem8.setText("Tipo de Vehiculos");
+        jMenuItem8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem8ActionPerformed(evt);
+            }
+        });
+        jMenu2.add(jMenuItem8);
+
+        jMenuItem9.setText("Actividad Novedad");
+        jMenuItem9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem9ActionPerformed(evt);
+            }
+        });
+        jMenu2.add(jMenuItem9);
+
+        jMenuItem10.setText("Actividad Proyecto");
+        jMenuItem10.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem10ActionPerformed(evt);
+            }
+        });
+        jMenu2.add(jMenuItem10);
+
+        jMenuItem11.setText("Usuario Proyecto");
+        jMenuItem11.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem11ActionPerformed(evt);
+            }
+        });
+        jMenu2.add(jMenuItem11);
+
         jMenuBar2.add(jMenu2);
 
         jMenu3.setText("Facturación");
@@ -136,6 +226,51 @@ public class MainWindow extends javax.swing.JFrame {
         frm_Ingreso_Reporte_C frm = new frm_Ingreso_Reporte_C();
         abrir_ventana(frm);
     }//GEN-LAST:event_jMenuItem2ActionPerformed
+
+    private void jMenuItem3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem3ActionPerformed
+       frm_Personal frm = new frm_Personal();
+       abrir_ventana(frm);
+    }//GEN-LAST:event_jMenuItem3ActionPerformed
+
+    private void jMenuItem4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem4ActionPerformed
+        frm_Vehiculo frm = new frm_Vehiculo();
+        abrir_ventana(frm);
+    }//GEN-LAST:event_jMenuItem4ActionPerformed
+
+    private void jMenuItem5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem5ActionPerformed
+        frm_Ruta frm = new frm_Ruta();
+        abrir_ventana(frm);
+    }//GEN-LAST:event_jMenuItem5ActionPerformed
+
+    private void jMenuItem6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem6ActionPerformed
+        frm_Proyecto frm = new frm_Proyecto();
+        abrir_ventana(frm);
+    }//GEN-LAST:event_jMenuItem6ActionPerformed
+
+    private void jMenuItem7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem7ActionPerformed
+        frm_Horario frm = new frm_Horario();
+        abrir_ventana(frm);
+    }//GEN-LAST:event_jMenuItem7ActionPerformed
+
+    private void jMenuItem8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem8ActionPerformed
+        frm_Tipo_Vehiculo frm = new frm_Tipo_Vehiculo();
+        abrir_ventana(frm);
+    }//GEN-LAST:event_jMenuItem8ActionPerformed
+
+    private void jMenuItem9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem9ActionPerformed
+        frm_Actividad_Novedad frm = new frm_Actividad_Novedad();
+        abrir_ventana(frm);
+    }//GEN-LAST:event_jMenuItem9ActionPerformed
+
+    private void jMenuItem10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem10ActionPerformed
+        frm_Actividad_Proyecto frm = new frm_Actividad_Proyecto();
+        abrir_ventana(frm);
+    }//GEN-LAST:event_jMenuItem10ActionPerformed
+
+    private void jMenuItem11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem11ActionPerformed
+        Frm_Usuario_Proyecto frm = new Frm_Usuario_Proyecto();
+        abrir_ventana(frm);
+    }//GEN-LAST:event_jMenuItem11ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -192,6 +327,15 @@ public class MainWindow extends javax.swing.JFrame {
     private javax.swing.JMenu jMenu2;
     private javax.swing.JMenu jMenu3;
     private javax.swing.JMenuBar jMenuBar2;
+    private javax.swing.JMenuItem jMenuItem10;
+    private javax.swing.JMenuItem jMenuItem11;
     private javax.swing.JMenuItem jMenuItem2;
+    private javax.swing.JMenuItem jMenuItem3;
+    private javax.swing.JMenuItem jMenuItem4;
+    private javax.swing.JMenuItem jMenuItem5;
+    private javax.swing.JMenuItem jMenuItem6;
+    private javax.swing.JMenuItem jMenuItem7;
+    private javax.swing.JMenuItem jMenuItem8;
+    private javax.swing.JMenuItem jMenuItem9;
     // End of variables declaration//GEN-END:variables
 }
